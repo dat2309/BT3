@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="18dp"
+        android:layout_height="28dp"
+        android:text="TextView"
+        android:textColor="#808080"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="148dp"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="121dp"
+        android:layout_height="29dp"
+        android:text="TextView"
+        android:textColor="#808080"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="115dp"
+        tools:text="140.000 đ" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="101dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        android:textColor="#134FEC"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="144dp"
+        tools:text="Mua sau" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="183dp"
+        android:layout_height="48dp"
+        android:text="TextView"
+        android:textColor="#F44336"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="407dp"
+        tools:text="141.000 đ" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="364dp"
+        android:layout_height="68dp"
+        android:background="#E53935"
+        android:text="Button"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="628dp"
+        tools:text="Tiến Hành Thanh Toán" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="153dp"
+        android:layout_height="43dp"
+        android:text="TextView"
+        android:textColor="#F44336"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="71dp"
+        tools:text="150.000 đ" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="183dp"
+        android:layout_height="48dp"
+        android:text="TextView"
+        android:textColor="#F44336"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="568dp"
+        tools:text="141.000 đ" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="162dp"
+        android:layout_height="23dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="407dp"
+        tools:text="Tạm tính" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="197dp"
+        android:layout_height="22dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6"
+        tools:layout_editor_absoluteX="12dp"
+        tools:text="Bạn có phiếu quà tặng Tiki/Got it/ Urbox?" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="151dp"
+        android:layout_height="18dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="584dp"
+        tools:text="Thành tiền" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="162dp"
+        android:layout_height="23dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:text="Mã Giảm Giá Đã Lưu" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="133dp"
+        android:layout_height="28dp"
+        android:text="TextView"
+        android:textColor="#134FEC"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="354dp"
+        tools:text="Nhập Tại Đây ?" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="101dp"
+        android:layout_height="20dp"
+        android:text="TextView"
+        android:textColor="#134FEC"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="204dp"
+        tools:text="Xem Tại Đây" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="142dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/book" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="162dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="40dp"
+        android:text="TextView"
+        android:textColor="#1B1818"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:layout_editor_absoluteY="16dp"
+        tools:text="Sách lấy từ Google" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="162dp"
+        android:layout_height="23dp"
+        android:text="TextView"
+        android:textColor="#121010"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="48dp"
+        tools:text="Cung cấp bởi Gooleg" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0A5EB7"
+        android:text="Button"
+        android:textColor="#FBFBFB"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="264dp"
+        tools:text="Áp dụng" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="262dp"
+        android:layout_height="44dp"
+
+        android:drawableLeft="@android:drawable/button_onoff_indicator_on"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="false"
+        android:text="Mã Giảm Giá"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/btnminus"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/btnadd"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <GridView
+        android:layout_width="419dp"
+        android:layout_height="106dp"
+        android:background="#9F9F9F"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <GridView
+        android:layout_width="434dp"
+        android:layout_height="36dp"
+        android:background="#9F9F9F"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <GridView
+        android:layout_width="443dp"
+        android:layout_height="33dp"
+        android:background="#9F9F9F"
+        tools:layout_editor_absoluteX="-33dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
